@@ -26,3 +26,11 @@ function actualizarListaAmigos() {
     }
     return;
 }
+
+function sortearAmigo() {
+    if (amigos.length == 0) {
+        return;
+    }
+    let amigoSecreto = document.getElementById('resultado');
+    amigoSecreto.innerHTML = `El amigo secreto sorteado es: ${amigos[Math.floor(Math.random() * amigos.length)]}`;
+}
