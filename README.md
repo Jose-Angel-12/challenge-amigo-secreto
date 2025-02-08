@@ -26,7 +26,7 @@ se mostrara en un cuadro de texto.
 
 - `HTML`
 - `CSS`
--  `JAVASCRIPT`
+- `JavaScript`
 
 ## :boy: Autor
 
